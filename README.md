@@ -11,4 +11,4 @@ Naga Vijay Saradhi Kethamakka
 
 Sriharsha Srinivasa Karthik Kaipa
 
-Sneha Vankiredd
+Sneha Vankireddy
