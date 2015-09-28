@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Welcome to OpenShift</title>
 
 <style>
@@ -45,6 +46,7 @@ body {
   font-family: "Helvetica Neue",Helvetica,"Liberation Sans",Arial,sans-serif;
   font-size: 14px;
   line-height: 1.4;
+  background-image: url("img/background.jpg");
 }
 
 html {
@@ -137,7 +139,7 @@ a:hover {
   text-decoration: underline;
 }
 hgroup {
-  margin-top: 50px;
+ background-color: white;
 }
 footer {
     margin: 50px 0 25px;
@@ -200,7 +202,25 @@ line-height: 1.4;
   overflow: auto;
   font-family: Menlo,Monaco,"Liberation Mono",Consolas,monospace !important;
 }
-
+.circular {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  background: url(images/mypic.jpg) no-repeat;
+   }
+ .circular img {
+    height : 20px;
+    width :  20px;
+    BORDER:  0px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+   }
+  .github {
+	height : 40px;
+    width :  40px;
+  }
 </style>
 
 </head>
@@ -208,27 +228,49 @@ line-height: 1.4;
 <section class='container'>
           <hgroup>
             <h1>Welcome to our Human Computer Interaction Team Assignment Page For CS5340</h1>
+			<p> College of Computer and Information Science, Northeastern University <br>
+            Instructor: Prof. Andrea Parker
+			</p>
           </hgroup>
+		
 
-
-        <div class="row">
+        <div>
+                <h2>Team Assignments:</h2>
+                <a href="assignments/team-assignment-1.html"><h3>Team Assignment 1</h3></a>
+			</div>
+        </div><br>
+		  <h2>Team members are listed below :</h2> <br>
+	    <div class="row">
           <section class='col-xs-12 col-sm-6 col-md-6'>
             <section>
-              <h2>Team players are listed below :</h2> 
+			<img class="circular" src="img/avanti.jpg">
 			  <h3> Avanti Patil</h3>
-              <h3> Naga Vijay Saradhi Kethamakka</h3>
-			  <h3> Sriharsha Srinivasa Karthik Kaipa</h3>
-			  <h3> Sneha Vankireddy</h3>
             </section>
           </section>
           <section class="col-xs-12 col-sm-6 col-md-6">
-
-                <h2>Team Assignments:</h2>
-                <a href="assignments/team-assignment-1.html"><h3>Team Assignment 1</h3></a>
-
+			<section>
+				<img class="circular" src="img/saradhi.jpg">
+                 <h3> Naga Vijay Saradhi Kethamakka</h3>
+		    </section>
           </section>
         </div>
-
+		<div class="row">
+          <section class='col-xs-12 col-sm-6 col-md-6'>
+			<section>
+			  <img class="circular" src="img/karthik.jpg">
+			  <h3> Sriharsha Srinivasa Karthik Kaipa</h3>
+			</section>
+          </section>
+          <section class="col-xs-12 col-sm-6 col-md-6">
+			<section>
+			  <img class="circular" src="img/sneha.jpg">
+			  <h3> Sneha Vankireddy</h3> 
+			</section>
+		  </section>
+        </div> <br>
+			<p>We are passionate about understanding the psychology of humans while they interact with the computers and giving back to the community in form of developing the means for unprivileged society to overcome the poverty. 
+			Union Capitol Boston has very exciting program to fight poverty and We are proud to be part of this revolution.</p>
+			<img class="github" src="img/github.gif"><a href="https://github.com/snehav27/HCI-CS5340">Github Link!!!!!!!</a>
         <footer>
          @copyrights 2015
         </footer>
